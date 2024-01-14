@@ -11,7 +11,7 @@ const app = express();
 
 //semple root end point
 app.get('/', (req, res)=>{
-    res.send("First Project in GraphQL");
+    res.send("Your First Project in GraphQL");
 });
 
 //resolver for resolve all graphql querys and store the data to database.
